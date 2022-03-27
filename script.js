@@ -36,7 +36,7 @@ function setTheme(mode){
 
 //the check-out-projects button
 
-let topButton1 = document.querySelector('.top-btn1')
+let topButton1 = document.querySelector('.top-btn projects')
 topButton1.addEventListener('click', function(){
     $('html, body').animate({
         scrollTop: $('#post-section-projects').offset().top
@@ -47,7 +47,7 @@ topButton1.addEventListener('click', function(){
 
 //the check-out-papers button
 
-let topButton2 = document.querySelector('.top-btn2')
+let topButton2 = document.querySelector('.top-btn papers')
 topButton2.addEventListener('click', function(){
     $('html, body').animate({
         scrollTop: $('#post-section-papers').offset().top
